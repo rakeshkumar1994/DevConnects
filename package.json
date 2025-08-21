@@ -1,0 +1,40 @@
+{
+    "name": "devconnect",
+    "version": "1.0.0",
+    "description": "Developer Social Platform built with Node.js and Express",
+    "main": "src/server.js",
+    "scripts": {
+        "dev": "nodemon src/server.js",
+        "start": "node src/server.js",
+        "test": "jest"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "social",
+        "backend",
+        "devconnect"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "joi": "^18.0.0",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.5.0",
+        "passport": "^0.6.0",
+        "passport-google-oauth20": "^2.0.0",
+        "redis": "^4.6.7",
+        "socket.io": "^4.7.2",
+        "swagger-ui-express": "^4.6.3",
+        "yamljs": "^0.3.0"
+    },
+    "devDependencies": {
+        "jest": "^29.6.1",
+        "nodemon": "^3.0.1",
+        "supertest": "^6.3.3"
+    }
+}
